@@ -1,0 +1,25 @@
+{
+  "name": "cli-clockface",
+  "version": "1.0.0",
+  "description": "A program that draws a clockface in the CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose",
+    "lint": "standard",
+    "dev": "chokidar '**/*.js' -c 'standard && ava --verbose'",
+    "validate": "npm ls"
+  },
+  "keywords": ["daily-programmer", "nodeJS", "ava"],
+  "author": "",
+  "license": "ISC",
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "chokidar-cli": "^1.2.0",
+    "precommit-hook": "^3.0.0",
+    "standard": "^8.6.0"
+  }
+}
