@@ -9,7 +9,11 @@
     "dev": "chokidar '**/*.js' -c 'standard && ava --verbose'",
     "validate": "npm ls"
   },
-  "keywords": ["daily-programmer", "nodeJS", "ava"],
+  "keywords": [
+    "daily-programmer",
+    "nodeJS",
+    "ava"
+  ],
   "author": "",
   "license": "ISC",
   "pre-commit": [
