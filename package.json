@@ -4,9 +4,9 @@
   "description": "A program that draws a clockface in the CLI",
   "main": "index.js",
   "scripts": {
-    "test": "ava --verbose",
+    "test": "nyc ava --verbose",
     "lint": "standard",
-    "dev": "chokidar '**/*.js' -c 'standard && ava --verbose'",
+    "dev": "chokidar '**/*.js' -c 'standard && nyc ava --verbose'",
     "validate": "npm ls"
   },
   "keywords": [
@@ -23,6 +23,7 @@
   "devDependencies": {
     "ava": "^0.17.0",
     "chokidar-cli": "^1.2.0",
+    "nyc": "^10.1.2",
     "precommit-hook": "^3.0.0",
     "standard": "^8.6.0"
   }
