@@ -17,3 +17,4 @@ A program that draws a clockface in the CLI
 * [chokidar-cli](https://github.com/avajs/ava)
 * [precommit-hook](https://github.com/nlf/precommit-hook)
 * [standard](https://github.com/feross/standard)
+* [nyc](https://github.com/istanbuljs/nyc)
